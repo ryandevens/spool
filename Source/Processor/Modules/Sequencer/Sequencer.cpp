@@ -4,7 +4,7 @@ void Sequencer::update() {
     interval = (60.f / bpm * sampleRate);
 }
 
-void Sequencer::prepareToPlay(int samplesPerBlockExpected, double rate) {
+void Sequencer::prepareToPlay(double rate, int samplesPerBlockExpected) {
     sampleRate = rate;
 }
 
